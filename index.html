@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday</title>
+  <title>Your Birthday</title>
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +13,199 @@
 </head>
 <body>
   <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="images/foto.png" alt="Birthday" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Your Birthday">Your Birthday</h1>
+          <p class="title">Special Day</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="gift-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Hadiah Ulang Tahun</p>
+              <span class="contact-link" style="cursor:default;">
+                Kirim kado spesialmu dan buat hariku jadi lebih berkesan!
+              </span>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="balloon-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Ucapan & Doa</p>
+              <span class="contact-link" style="cursor:default;">
+                Berikan doa, harapan, atau ucapan manis untuk ulang tahunku di sini ya!
+              </span>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="camera-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Momen Bahagia</p>
+              <span class="contact-link" style="cursor:default;">
+                Bagikan foto kenangan atau momen seru di hari ulang tahun ini!
+              </span>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Lokasi Perayaan</p>
+              <address>Tasikmalaya, Jawa Barat</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/meiizhr?igsh=MmFiYjFlcjlwNzkz&utm_source=qr" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">Your Birthday</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Selamat ulang tahun! Hari ini adalah hari spesial untukmu. Semoga di hari ulang tahunmu ini, semua harapan dan impian yang kamu panjatkan dapat terwujud. 
+            Semoga umur yang baru membawa banyak kebahagiaan, kesehatan, dan kesuksesan dalam hidupmu.
+          </p>
+          <p>
+            Terima kasih sudah menjadi pribadi yang hebat dan selalu memberi inspirasi untuk orang di sekitarmu. 
+            Semoga segala kebaikan dan kebahagiaan selalu menyertai langkahmu. Nikmati hari spesialmu bersama orang-orang tercinta, 
+            dan jangan lupa selalu bersyukur atas segala hal baik yang telah kamu capai. 
+            Happy birthday, semoga hari-harimu selalu penuh warna dan kebahagiaan!
+          </p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">Doa & Harapan</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="wish icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Kesehatan</h4>
+                <p class="service-item-text">
+                  Semoga selalu diberikan kesehatan jasmani dan rohani agar bisa terus berkarya dan menjalani hari-hari dengan penuh semangat.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="wish icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Kebahagiaan</h4>
+                <p class="service-item-text">
+                  Semoga kebahagiaan selalu menghiasi setiap langkah hidupmu, serta dikelilingi oleh orang-orang yang menyayangi dan mendukungmu.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="wish icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Kesuksesan</h4>
+                <p class="service-item-text">
+                  Semoga segala cita-cita dan impianmu dapat tercapai dengan hasil terbaik, serta terus diberi semangat untuk belajar dan berkembang.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="wish icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Syukur</h4>
+                <p class="service-item-text">
+                  Semoga selalu diberi hati yang penuh rasa syukur atas setiap anugerah dan pelajaran hidup yang datang.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Special Wish</h4>
+              <time datetime="2025-06-26">26 Juni 2025</time>
+              <div data-modal-text>
+                <p>
+                  Hari ini adalah milikmu, nikmati setiap momennya dan jadikan setiap kenangan sebagai penyemangat untuk masa depan. Selamat ulang tahun!
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <!-- Konten lain tetap sama, bisa lanjutkan dari file sebelumnya -->
+    </div>
   </main>
-  <script src="js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
