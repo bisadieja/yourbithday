@@ -1,4 +1,3 @@
-// Toggle sidebar contacts (Show/Hide Contacts)
 const sidebarBtn = document.querySelector('[data-sidebar-btn]');
 const sidebarInfoMore = document.querySelector('.sidebar-info_more');
 sidebarBtn.addEventListener('click', function () {
@@ -12,8 +11,6 @@ sidebarBtn.addEventListener('click', function () {
     icon.setAttribute('name', 'chevron-down');
   }
 });
-
-// Navigasi antar halaman (tab)
 const navLinks = document.querySelectorAll('[data-nav-link]');
 const pages = document.querySelectorAll('article[data-page]');
 navLinks.forEach((link, idx) => {
@@ -24,8 +21,6 @@ navLinks.forEach((link, idx) => {
     pages[idx].classList.add('active');
   });
 });
-
-// (Opsional) Validasi form jika ada
 const formInputs = document.querySelectorAll('[data-form-input]');
 const formBtn = document.querySelector('[data-form-btn]');
 const form = document.querySelector('[data-form]');
